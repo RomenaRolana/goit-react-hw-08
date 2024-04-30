@@ -1,0 +1,64 @@
+/* Container for navigation links with a minimalistic layout */
+.nav {
+  display: flex;
+  gap: 20px; /* Adjusted gap for a tighter layout */
+  font-size: 16px; /* Reduced to more standard size */
+  background-color: #f0f0f0; /* Soft grey background */
+}
+
+/* Styling for the first link in the navigation */
+:first-child:link {
+  padding-left: 20px; /* Reduced padding for subtlety */
+}
+
+/* Style for navigation links */
+.link {
+  margin: 0 auto;
+  color: #333; /* Dark grey for better readability */
+  text-decoration: none; /* Removing underline */
+  border: 1px solid #ccc; /* Light grey border */
+  font-family: Arial, sans-serif; /* More readable font choice */
+  padding: 10px; /* Slightly increased padding */
+  border-radius: 5px; /* Smoother radius */
+  transition: background-color 250ms ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+.link:hover {
+  background-color: #e8e8e8; /* Soft hover color */
+}
+
+/* Style for the active navigation link */
+.active {
+  color: #555; /* Slightly darker grey to highlight active link */
+  background-color: #ddd; /* Light grey background for active link */
+}
+
+/* Styling for user information display */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none; /* Removing border for a cleaner look */
+}
+
+/* Styling for span elements within user component */
+.span {
+  color: #666; /* Darker grey for text */
+  font-size: 18px; /* Larger font size for clarity */
+  font-family: Arial, sans-serif; /* Consistent font family */
+}
+
+/* Styling for buttons */
+.button {
+  background-color: #4a90e2; /* Bright blue for a fresh look */
+  color: white;
+  border: none; /* No border for a sleek button */
+  border-radius: 5px;
+  padding: 10px 15px; /* Adjusted padding for better fit */
+  margin: 10px 0; /* Reduced margin */
+  cursor: pointer;
+  font-size: 18px;
+  width: auto; /* Auto width for content fitting */
+  transition: background-color 250ms ease-in-out; /* Background color transition on hover */
+}

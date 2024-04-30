@@ -1,0 +1,36 @@
+/* Styling for user display elements */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc; /* Lighter border for a softer appearance */
+  padding: 10px; /* Added padding for better visual separation */
+  border-radius: 5px; /* Rounded corners for a smoother look */
+}
+
+/* Styling for span elements within user-related containers */
+.span {
+  color: #be15b5; /* Vibrant color for standout text */
+  font-size: 18px; /* Slightly reduced size for consistency */
+}
+
+/* Enhanced button styling for better visual feedback and usability */
+.button {
+  background-color: #8a2be2; /* Updated to a softer purple for harmony */
+  color: white;
+  border: none; /* Removing border for a cleaner look */
+  border-radius: 5px;
+  padding: 12px; /* Increased padding for better tactility */
+  margin: 20px 0; /* Standardized vertical spacing */
+  cursor: pointer;
+  font-size: 18px; /* Reduced font size for better fit */
+  width: auto; /* Adjusted to auto to accommodate various content sizes */
+  transition: background-color 250ms ease-in-out; /* Transition effect for the background color */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+/* Adding hover effect to buttons for interactive feedback */
+.button:hover {
+  background-color: #9b4bd9; /* A lighter purple for hover state */
+}
+

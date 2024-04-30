@@ -1,0 +1,77 @@
+/* Base styling for body to set global background and typography */
+body {
+  background: linear-gradient(
+    0deg,
+    rgb(128, 230, 232) 0%, /* Light turquoise */
+    rgb(222, 148, 248) 86% /* Soft lavender */
+  );
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Uniform styling for form elements */
+.form {
+  width: 400px; /* Consistent form width for better visual structure */
+  margin: 6vh auto; /* Vertically centered with responsive height */
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for labels to ensure clear form structure */
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+/* Styling for the registration title for prominent display */
+.titleRegistration {
+  font-size: 40px;
+  padding-top: 50px; /* Reduced padding for better screen utilization */
+  text-align: center;
+  color: #792099; /* Rich purple for brand consistency */
+}
+
+/* Consistent and engaging button design */
+.form button {
+  background-color: #792099; /* Brand purple */
+  color: white;
+  border: none; /* Clean borderless design */
+  border-radius: 5px;
+  padding: 12px 0; /* Optimized padding for better ergonomics */
+  margin: 20px 0;
+  cursor: pointer;
+  font-size: 18px; /* Slightly smaller font for refined aesthetics */
+  width: 100%;
+  transition: background-color 250ms ease-in-out; /* Smooth color transition on hover */
+}
+
+/* Subtle hover effect for buttons */
+.form button:hover {
+  background-color: #8a2be2; /* Lighter purple for interactive feedback */
+}
+
+/* Styling for input fields to enhance form usability */
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid rgb(34, 193, 195); /* Border color matching the background gradient */
+}
+
+/* Enhanced focus state for inputs to improve accessibility */
+input:focus {
+  outline: 2px solid #792099; /* Focused outline color for better visibility */
+}
+
+/* Styling for supplementary text within forms */
+.span {
+  color: rgb(190, 15, 181); /* Vibrant text color for emphasis */
+  font-size: 20px;
+}

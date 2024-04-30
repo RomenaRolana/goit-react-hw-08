@@ -1,0 +1,66 @@
+/* Styling for the list container */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Slightly reduced gap */
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border: 1px solid #ddd; /* Lighter border color for a softer look */
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+/* Styling for individual items within the list */
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px; /* Slightly reduced width for better responsiveness */
+  height: 180px; /* Reduced height */
+  border: 1px solid #ccc; /* Lighter border color */
+  background-color: #f8f8f8; /* Lighter background for a modern feel */
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for buttons */
+.btn {
+  background-color: #4a90e2; /* Updated to a fresh blue */
+  color: white;
+  border: none; /* Removing the border for a cleaner button */
+  border-radius: 5px;
+  padding: 10px 15px; /* Adjusted padding for comfort */
+  margin: 20px 0;
+  cursor: pointer;
+  font-size: 18px; /* Slightly reduced font size */
+  width: auto; /* Set width to auto for content adaptability */
+  transition: background-color 250ms ease-in-out; /* Background color transition for visual feedback */
+}
+
+/* Styling for input fields */
+.input {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 18px; /* Standardized font size */
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #e0e0e0; /* Lighter border for a softer interface */
+  background-color: #ffffff; /* White background for clarity */
+}
+
+/* Styling for the registration title */
+.titleRegistration {
+  font-size: 35px; /* Slightly reduced for proportionality */
+  padding-top: 50px; /* Reduced padding for layout balance */
+  text-align: center;
+  color: #4a90e2; /* Color matched to buttons for theme consistency */
+}
+

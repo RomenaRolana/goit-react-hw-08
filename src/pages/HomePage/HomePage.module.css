@@ -1,0 +1,36 @@
+/* Styling for the main title */
+.title {
+  font-size: 36px; /* Slightly reduced for a more proportionate look */
+  text-align: center;
+  margin-top: 50px; /* Reduced to decrease excessive spacing */
+  color: #333; /* Subtle color for better readability */
+}
+
+/* Enhanced styling for the first letter in paragraphs */
+p::first-letter {
+  font-size: 2rem; /* Increased size for more emphasis */
+  font-weight: bold;
+  color: #6f4e37; /* Richer shade of brown */
+}
+
+/* Styling for text blocks */
+.text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px; /* Standardized size for better readability */
+  font-weight: normal; /* Normal weight to reduce visual fatigue */
+  background-color: #fff8dc; /* A lighter shade for a soft, warm tone */
+  padding: 20px; /* Reduced padding for a balanced look */
+  border-radius: 10px;
+  border: 1px solid #ddd; /* Softer border color */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adding subtle shadow for depth */
+}
+
+/* Styling for images */
+.img {
+  width: 80%; /* Set to 80% to avoid overly large images */
+  display: block;
+  margin: 20px auto; /* Auto margins for center alignment and reduced vertical space */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for cohesive design */
+}
+

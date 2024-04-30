@@ -1,0 +1,62 @@
+/* Styling for label containers within forms */
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Standardized bottom margin for spacing */
+}
+
+/* General form styling for better visual grouping */
+.form {
+  width: 320px;
+  margin: 20px auto; /* Reduced top and bottom margin */
+  background-color: #f9f9f9; /* A slightly lighter shade for a clean look */
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for titles within registration forms */
+.titleRegistration {
+  font-size: 36px; /* Slightly smaller for a balanced look */
+  padding-top: 50px; /* Less padding to tighten layout */
+  text-align: center;
+  color: #8a2be2; /* A softer purple for less visual strain */
+}
+
+/* Button styling within forms for consistency and accessibility */
+.form button {
+  background-color: #8a2be2; /* Harmonized with title color */
+  color: white;
+  border: none; /* Removing border for a cleaner button look */
+  border-radius: 5px;
+  padding: 12px 0; /* Standardized padding for comfort */
+  cursor: pointer;
+  font-size: 18px; /* Reduced font size for standardization */
+  width: 100%; /* Full width for better mobile responsiveness */
+  margin-top: 20px; /* Added top margin for spacing */
+  transition: background-color 250ms ease-in-out; /* Smooth transition for visual feedback */
+}
+
+/* Input styling to improve form field visibility and focus */
+.input {
+  width: 100%; /* Full width for consistency */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 18px; /* Standardized font size */
+  padding: 10px;
+  border: 1px solid #22c1c3; /* Softer border color */
+}
+
+/* Focus styling for input fields to highlight active element */
+input:focus {
+  outline: 2px solid #8a2be2; /* Matching focus outline with theme color */
+}
+
+/* Styling for supplementary text or annotations within forms */
+.span {
+  color: #be15b5; /* Adjusted for a more vibrant look */
+  font-size: 18px; /* Standardized font size for consistency */
+}
+
